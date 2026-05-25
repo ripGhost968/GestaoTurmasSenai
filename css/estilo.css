@@ -1,0 +1,94 @@
+ @charset "UTF-8";
+ @import "cor.css";
+ @import "reset.css";
+
+@font-face {
+     font-family: Fortnite;
+     src: url(font/fortnite/fortnite.otf)
+ }
+
+ ul{
+    margin: 0;
+ }
+ body {
+     background-color: var(--primary-bg-color);
+     /* font-family: Fortnite; */
+ }
+
+ h2, h3 {
+     /*background-color: brown;*/
+     background-color: var(--cor1);
+     font-size: larger;
+ }
+
+ h4, h5 {
+     background-color: yellow;
+     background-color: var(--cor3);
+ }
+ 
+ header {
+     background-color: rgb(11, 11, 117);
+     color: aliceblue;
+ }
+ header h2 {
+     font-size: small;
+     text-align: center;
+ }
+
+ .menu {
+     background-color: transparent;
+     color: #fff;
+ }
+
+ .menu ul {
+     list-style: none;
+     text-align: center;
+ }
+
+ .menu ul li {
+     display: inline-block;
+     color: #fff;
+     background-color: yellowgreen;
+     padding: 20px;
+     border: 1px solid #000
+ }
+
+ .menu ul li:nth-child(2n+1) {
+     background-color: blanchedalmond;
+ }
+
+ .menu ul li a {
+     color: rgb(208, 218, 70);
+     font-size: larger;
+ }
+
+ section {
+     background-color: aquamarine;
+ }
+
+ section section section {
+     display: inline-block;
+     vertical-align: top;
+     width: 100%;
+     min-height: 200px;
+     border: 2px solid #000;
+ }
+
+ .lista-alunos{
+    list-style: decimal-leading-zero;
+    padding-inline-start: 30px;
+ }
+
+
+ section section section footer {
+    background-color: red;
+ }
+
+ section section section footer h3 {
+    font-size: smaller;
+ }
+
+ section section section footer  p{
+    background: chocolate;
+    display: inline-block;
+ }

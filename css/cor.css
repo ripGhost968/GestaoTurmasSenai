@@ -1,0 +1,12 @@
+:root{
+    --cor0:#000;
+    --cor1:#ccc;
+    --cor2: red;
+    --cor3:yellow;
+    --primary-bg-color: #1e90ff;
+    --primary-color: #ffffff;
+}
+
+h6{
+    background-color: chartreuse;
+}
