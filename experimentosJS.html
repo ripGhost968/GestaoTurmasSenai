@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faviicon  Tag -->
+    <!-- <link rel="icon" href="https://www.w3schools.com/favicon.ico"  type="image/x-icon"> -->
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <title>EXPERIMENTOS JS</title>
+    <meta name="description" content="Estamos aprendendo JS">
+    <meta name="keywords" content="sites, web, frontend, JS, JavaScript, ECMA Script">
+    <meta name="author" content="Gregorio Queiroz, gregorio@gregmaster.com.br, gregmasterbr@gmail.com">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script>
+        // Seu código JavaScript vai aqui
+        console.log("Olá, mundo!");
+        alert("SEJA BEM-VINDO AO MEU SITE");
+        //Conteudo abaixo não é possível ser carregado devido 
+        // o elemento não ser reconhecido na estrutura DOM
+        console.log(document.getElementsByTagName("h1")[0]);
+    </script>
+</head>
+
+<body>
+    <h1>EXPERIMENTOS <abbr title="JavaScript">JS</abbr></h1>
+   
+   <script>
+        // Seu código JavaScript vai aqui
+        window.onload = (event) => {
+            console.log("Olá, mundo! - PÁGINA CARREGADA TOTALMENTE!");
+            meu_h1 = document.getElementsByTagName("h1")[0]
+            console.log(meu_h1);
+            //MANIPULANDO O CSS via JS
+            // meu_h1.style.backgroundColor="red";
+            // meu_h1.style.textAlign="center";
+            // meu_h1.style.color="white";
+
+
+        };
+    </script>
+</body>
+ 
+</html>
